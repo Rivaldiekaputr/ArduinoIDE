@@ -104,7 +104,7 @@ void loop() {
       Serial.println("We are now connected to the BLE server.");
     } else {
       Serial.println("Failed to connect to the BLE server. Reconnect.....");
-    
+      
     }
     doConnect = false;
   }
